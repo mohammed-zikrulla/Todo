@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import Create from "./components/Create";
 
 function App() {
+  const initialTodos = localStorage.getItem("Todos")
+    ? JSON.parse(localStorage.getItem("Todos"))
+    : [];
+  const [todos, setTodos] = useState(initialTodos);
+  localStorage.setItem("Todos", JSON.stringify(todos));
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
+      <Create todos={todos} setTodos={setTodos} />
     </div>
   );
 }
