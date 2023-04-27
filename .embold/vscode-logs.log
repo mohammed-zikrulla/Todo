@@ -58,3 +58,13 @@
 2023-04-27 20:28:25 error: SQLITE_ERROR: no such table: issues
 2023-04-27 20:30:25 info: file:///Users/test/Downloads/Projects/REACT%20project/TodoApp/.git/index.lock
 2023-04-27 20:30:25 error: SQLITE_ERROR: no such table: issues
+2023-04-27 20:30:46 info: file:///Users/test/Downloads/Projects/REACT%20project/TodoApp/.git/index.lock
+2023-04-27 20:30:46 error: SQLITE_ERROR: no such table: issues
+2023-04-27 20:31:02 info: file:///Users/test/Downloads/Projects/REACT%20project/TodoApp/.git/HEAD.lock
+2023-04-27 20:31:02 info: file:///Users/test/Downloads/Projects/REACT%20project/TodoApp/.git/index.lock
+2023-04-27 20:31:02 info: file:///Users/test/Downloads/Projects/REACT%20project/TodoApp/.git/refs/heads/main.lock
+2023-04-27 20:31:02 error: SQLITE_ERROR: no such table: issues
+2023-04-27 20:31:02 error: SQLITE_ERROR: no such table: issues
+2023-04-27 20:31:02 error: SQLITE_ERROR: no such table: issues
+2023-04-27 20:31:08 info: file:///Users/test/Downloads/Projects/REACT%20project/TodoApp/.git/refs/remotes/origin/main.lock
+2023-04-27 20:31:08 error: SQLITE_ERROR: no such table: issues
